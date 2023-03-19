@@ -1,0 +1,10 @@
+* {
+  font-family: "headings";
+}
+
+.task-card {
+  max-width: 200px;
+  background-color: yellowgreen;
+  border-radius: 5px;
+  padding: 20px 30px;
+}

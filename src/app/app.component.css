@@ -1,3 +1,10 @@
 h1 {
   font-family: "headings";
 }
+
+.nav {
+  padding: 10px 30px;
+  background-color: #ffd24c;
+  color: white;
+  -webkit-text-stroke: 0.25px black;
+}

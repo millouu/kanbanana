@@ -9,8 +9,18 @@ p {
 }
 
 .task-card {
-  max-width: 200px;
-  border: solid black 1px;
+  width: 100%;
+  background-color: white;
+  border: solid black 1.5px;
   border-radius: 5px;
   padding: 20px 20px;
+  cursor: pointer;
+  /* transition-timing-function: ease-in;
+  transition: 0.2s; */
 }
+/* 
+.task-card:hover {
+  background-color: #ffe69b;
+  border: black dashed 1.5px;
+  transform: scale(1.1);
+} */

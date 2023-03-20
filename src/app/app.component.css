@@ -12,3 +12,37 @@ h2 {
   color: white;
   -webkit-text-stroke: 0.25px black;
 }
+
+.content-wrapper {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  /* width: 100%; */
+  margin: 0 25px 25px 0;
+}
+
+.list {
+  border: solid 1px #ccc;
+  /* width: 100%; */
+  min-height: 60px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty-label {
+  font-size: 1.5em;
+  /* width: 100%; */
+  padding: 20px 20px;
+  text-align: center;
+  opacity: 0.2;
+}

@@ -7,3 +7,8 @@
   font-family: "headings";
   src: url("./assets/fonts/CaramelSweets.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "body";
+  src: url("./assets/fonts/GloriaHallelujah.ttf") format("truetype");
+}

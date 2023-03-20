@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: "headings";
 }
@@ -5,6 +9,27 @@ h1 {
 h2 {
   font-family: "headings";
   margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 10px;
+  font-family: "headings";
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #bcec92;
+  border-radius: 5px;
+  border: solid 1.5px black;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+
+.button-container {
+  padding: 20px 100px 0px 100px;
+}
+
+button:hover {
+  border: black dashed 1.5px;
+  transform: scale(1.1);
 }
 
 .nav {
@@ -42,7 +67,7 @@ h2 {
 .empty-label {
   font-size: 1.5em;
   /* width: 100%; */
-  border: solid 1px #717171;
+  border: solid 1.5px #595959;
   border-radius: 5px;
   font-family: "headings";
   padding: 20px 20px;

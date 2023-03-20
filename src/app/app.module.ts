@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { TaskComponent } from './components/task/task.component';
 
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { TaskDialogComponent } from './components/task-dialog/task-dialog.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskComponent
+    TaskComponent,
+    TaskDialogComponent
   ],
   imports: [
     BrowserModule,

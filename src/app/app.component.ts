@@ -38,4 +38,10 @@ export class AppComponent {
   }
 
   editTask(list: 'done' | 'todo' | 'inProgress', task: Task): void{}
+
+  newTask(): void{
+    
+  }
+
+
 }

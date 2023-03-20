@@ -6,7 +6,10 @@ import { TaskComponent } from './components/task/task.component';
 
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { TaskDialogComponent } from './components/task-dialog/task-dialog.component';
-
+import { FormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,11 @@ import { TaskDialogComponent } from './components/task-dialog/task-dialog.compon
   ],
   imports: [
     BrowserModule,
-    DragDropModule
+    DragDropModule,
+    MatButtonModule,
+    MatDialogModule,
+    FormsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

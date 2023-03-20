@@ -1,10 +1,16 @@
 * {
   font-family: "headings";
+  font-size: 1rem;
+}
+
+p {
+  font-family: "body";
+  font-size: 0.8em;
 }
 
 .task-card {
   max-width: 200px;
-  background-color: yellowgreen;
+  border: solid black 1px;
   border-radius: 5px;
-  padding: 20px 30px;
+  padding: 20px 20px;
 }

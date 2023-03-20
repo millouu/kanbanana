@@ -4,6 +4,7 @@ h1 {
 
 h2 {
   font-family: "headings";
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -26,12 +27,11 @@ h2 {
 }
 
 .container {
-  /* width: 100%; */
+  width: 33.33%;
   margin: 0 25px 25px 0;
 }
 
 .list {
-  border: solid 1px #ccc;
   /* width: 100%; */
   min-height: 60px;
   border-radius: 4px;
@@ -42,6 +42,9 @@ h2 {
 .empty-label {
   font-size: 1.5em;
   /* width: 100%; */
+  border: solid 1px #717171;
+  border-radius: 5px;
+  font-family: "headings";
   padding: 20px 20px;
   text-align: center;
   opacity: 0.2;

@@ -1,6 +1,7 @@
 * {
   font-family: "headings";
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 p {
@@ -15,6 +16,7 @@ p {
   border-radius: 5px;
   padding: 20px 20px;
   cursor: pointer;
+  margin-bottom: 20px;
   /* transition-timing-function: ease-in;
   transition: 0.2s; */
 }

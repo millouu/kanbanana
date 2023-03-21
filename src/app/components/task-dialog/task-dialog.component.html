@@ -1,7 +1,13 @@
 <div class="container">
   <mat-form-field>
     <mat-label>Title</mat-label>
-    <input matInput required cdkFocusInitial [(ngModel)]="data.task.title" />
+    <input
+      class="input-fields"
+      matInput
+      required
+      cdkFocusInitial
+      [(ngModel)]="data.task.title"
+    />
   </mat-form-field>
 
   <mat-form-field>

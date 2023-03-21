@@ -3,10 +3,17 @@
   font-family: "headings";
 }
 
-input {
+mat-form-field {
   font-family: "body";
 }
 
+mat-form-field :focus {
+  background-color: transparent;
+}
+
 .container {
-  padding: 10px 10px;
+  padding: 30px 30px;
+}
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: transparent;
 }

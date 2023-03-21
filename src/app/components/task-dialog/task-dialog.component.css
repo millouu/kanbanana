@@ -3,12 +3,14 @@
   font-family: "headings";
 }
 
-mat-form-field {
-  font-family: "body";
-}
-
 mat-form-field :focus {
   background-color: transparent;
+}
+
+button {
+  border: solid 2px black;
+  width: fit-content;
+  padding: 10px 20px;
 }
 
 .container {

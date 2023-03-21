@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-family: "headings";
+}
+
 p {
   font-family: "body";
   font-size: 0.8em;

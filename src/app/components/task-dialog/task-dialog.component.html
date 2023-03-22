@@ -7,8 +7,10 @@
       required
       cdkFocusInitial
       [(ngModel)]="data.task.title"
+      #name="ngModel"
     />
   </mat-form-field>
+  <div *ngIf="name.errors?.['required']">Title is required.</div>
 
   <mat-form-field>
     <mat-label>Description</mat-label>
@@ -16,18 +18,13 @@
   </mat-form-field>
 
   <div mat-dialog-actions>
-    <button mat-button [mat-dialog-close]="{ task: data.task }">OK</button>
-    <button mat-button (click)="cancel()">Cancel</button>
-  </div>
-  <div mat-dialog-actions>
     <button
-      *ngIf="data.enableDelete"
-      mat-fab
-      color="primary"
-      aria-label="Delete"
-      [mat-dialog-close]="{ task: data.task, delete: true }"
+      mat-button
+      class="ok-button"
+      [mat-dialog-close]="{ task: data.task }"
     >
-      <!-- <mat-icon>delete</mat-icon> -->
+      OK
     </button>
+    <button mat-button class="cancel-button" (click)="cancel()">Cancel</button>
   </div>
 </div>

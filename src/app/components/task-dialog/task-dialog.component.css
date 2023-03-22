@@ -19,3 +19,10 @@ button {
 .mdc-text-field--filled:not(.mdc-text-field--disabled) {
   background-color: transparent;
 }
+
+.ok-button:hover {
+  background-color: #bcec92;
+}
+.cancel-button:hover {
+  background-color: #ffa092;
+}

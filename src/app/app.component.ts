@@ -44,6 +44,8 @@ export class AppComponent {
   constructor(private dialog: MatDialog) { }
   
   newTask(): void{
+
+    //to open a dialog box
     const dialogRef = this.dialog.open(TaskDialogComponent, {
       width: '270px',
       data: {
